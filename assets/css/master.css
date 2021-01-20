@@ -1,0 +1,174 @@
+/* FORMATTAZIONE/TAG */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #F6F8F9;
+}
+
+main {
+    width: 80%;
+}
+
+
+/* utility */
+
+.bg-blue {
+    background-color: #45ABEA;
+}
+
+.bg-violet {
+    background-color: #9C72E4;
+}
+
+.bg-green {
+    background-color: #64C0A9;
+}
+
+.bg-orange {
+    background-color: #F29E33;
+}
+
+.bg-pink {
+    background-color: #D863A1;
+}
+
+.bg-lime {
+    background-color: #B0C926;
+}
+
+
+/* <!-- HEADER --> */
+
+header {
+    padding: .5rem 3rem;
+    background-color: #fff;
+}
+
+header h1 {
+    display: inline;
+    vertical-align: middle;
+    font-size: 3.5em;
+}
+
+header img {
+    vertical-align: middle;
+    width: 5%;
+}
+
+
+/* <!-- HEADER --> */
+
+
+/* <!-- MAIN --> */
+
+main {
+    width: 70%;
+    margin: 3rem auto;
+}
+
+
+/* <!-- BUTTON --> */
+
+.container-button {
+    height: 5rem;
+    line-height: 5rem;
+    padding-left: 5rem;
+    background-color: #fff;
+}
+
+.add-task,
+.add-section {
+    margin-right: .5rem;
+    background-color: #fff;
+    height: 2.5rem;
+    font-weight: bolder;
+    border-radius: .5rem;
+    border: 2px solid;
+    padding: .5rem;
+}
+
+.add-task {
+    background-color: #45ABEA;
+    border-color: #45ABEA;
+    color: #fff;
+}
+
+
+/* <!-- BUTTON --> */
+
+
+/* <!-- CONTENT --> */
+
+.container-list {
+    background-color: #fff;
+    margin-top: .5rem;
+    padding: 5rem;
+}
+
+
+/* list */
+
+ul {
+    list-style: none;
+    margin-bottom: 2rem;
+    line-height: 2.5rem;
+}
+
+li {
+    margin-bottom: .5rem;
+}
+
+ul h2,
+ul h3 {
+    display: inline;
+    vertical-align: middle;
+}
+
+li>h2::before {
+    content: "\25BE";
+    font-size: 3rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.check::before {
+    content: "   \2713";
+    color: green;
+    border: 2px solid green;
+    border-radius: 50%;
+    font-size: 1.2em;
+    padding: 0rem .4rem;
+}
+
+.cross::before {
+    content: '\2718';
+    color: red;
+    border: 2px solid red;
+    border-radius: 50%;
+    font-size: 1.2em;
+    padding: 0rem .3rem;
+}
+
+li>span {
+    background-color: #45ABEA;
+    color: white;
+    border-radius: .7rem;
+    padding: .4rem;
+    margin-left: .5rem;
+    font-size: .7em;
+}
+
+
+/* list */
+
+
+/* <!-- CONTENT --> */
+
+
+/* <!-- MAIN --> */
